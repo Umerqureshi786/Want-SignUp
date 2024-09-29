@@ -4,80 +4,250 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Practice</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* //Internal CSS */
+        h1 {
+            color: blue;
+            font-weight: bolder;
+            font-style: italic;
+        }
+    </style>
 
 </head>
 
+
 <body>
 
+
+    <div id="navbar">
+        <nav>
+            <ul>
+                <li> <a href="#">Home</a></li>
+                <li> <a href="#">Products </a></li>
+                <li> <a href="#">About us </a></li>
+                <li> <a href="#">Contact us</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <h1>Website</h1>
+    <h2>Web</h2>
+    <h3>Web</h3>
+    <p id="para">Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. Inventore <i> similique nobis sunt
+            fugiat</i>
+        assumenda nesciunt, laudantium doloremque laborum sed eius accusamus harum quo consequuntur
+        <hr> rerum eaque ipsum 21<sup>st</sup> H<sub>2so4</sub>
+        nulla reprehenderit ratione?
+    </p>
+    <hr>
+
+    <p id="para">Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. Inventore <i> similique nobis sunt
+            fugiat</i>
+        assumenda nesciunt, laudantium doloremque laborum sed eius accusamus harum quo consequuntur
+        <hr> rerum eaque ipsum 21<sup>st</sup> H<sub>2so4</sub>
+        nulla reprehenderit ratione?
+    </p>
+
+    <q>Quaid e Azam Muhammad Ali Jinnah</q>
+
+    <blockquote cite="https://dicecamp.com/insights/4-jinnah-quotes-on-resilience-and-decision-making/">
+        <p> Think a hundred times before you take a decision, but once that decision is taken, stand by it as one man.
+        </p>
+    </blockquote>
+
+    <abbr title="Presedential Initiative for Ai and computing">PIAIC</abbr>
+
+
+    <ol type="A">
+        <li>Umar</li>
+        <li>ali</li>
+        <li>rehan</li>
+        <li>ahmer</li>
+    </ol>
+
+    <ul>
+        <li>Rehan</li>
+        <li>umar</li>
+        <li>ali</li>
+        <li>fffff</li>
+    </ul>
+    <dl>
+        <dt>Traffic</dt>
+        <dd>Collection of mltiple vehicle stop at signal</dd>
+
+        <dt>Biology</dt>
+        <dd>Bios meaning life and logos meaning disover organiwms</dd>
+    </dl>
+
+    <a href="https://www.google.co.uk/" target="_blank">Google</a>
+    <br> <br>
+    <a href="mailto:qureshiumer776@gmail.com">Email here</a>
+
+
+
+
+    <!-- //internal linking of sections in single page -->
+
+    <ul>
+        <li><a href="#ai"> Artificial Intelligence </a></li>
+        <li> <a href="#bc">Blockchain </a></li>
+        <li> <a href="#cc">Cloud Computing </a></li>
+    </ul>
+    <h2>Artificial Intelligence</h2>
+    <p id="ai">
+        Artificial Intelligence (AI) is a branch of computer science focused on creating machines and software capable
+        of performing tasks that typically require human intelligence. These tasks include problem-solving, learning,
+        understanding natural language, recognizing patterns, and making decisions. AI systems can range from simple
+        rule-based systems to more advanced machine learning algorithms that improve over time by analyzing data. AI is
+        applied in various fields, from voice assistants like Siri and Alexa to self-driving cars, healthcare
+        diagnostics, financial forecasting, and even robotics. The goal of AI is to create systems that can think,
+        reason, and adapt similarly to human beings, enhancing efficiency and decision-making across different
+        industries.</p>
+
+
+    <h2>Blockchain</h2>
+    <p id="bc">
+        Blockchain is a decentralized, distributed digital ledger technology that securely records transactions across
+        multiple computers in a way that prevents tampering or altering. Each transaction is stored in a "block," and
+        these blocks are linked or "chained" together using cryptographic methods, forming a continuous, unchangeable
+        record known as a blockchain. This technology is designed to be transparent, secure, and resistant to fraud, as
+        no single entity controls the entire chain. Blockchain is the foundation of cryptocurrencies like Bitcoin but is
+        also used in various industries for applications such as supply chain management, voting systems, and smart
+        contracts. It offers a way to ensure trust and transparency in transactions without relying on a central
+        authority.</p>
+
+
+
+    <h2>Cloud Computing</h2>
+    <p id="cc">Cloud computing is the delivery of various computing services—such as storage, processing power,
+        databases,
+        networking, software, and analytics—over the internet, often referred to as "the cloud." Instead of owning and
+        maintaining physical hardware or data centers, individuals and businesses can rent or use these resources
+        on-demand from cloud service providers like Amazon Web Services (AWS), Microsoft Azure, or Google Cloud. This
+        approach allows for greater flexibility, scalability, and cost savings, as users only pay for the resources they
+        need. Cloud computing is used for a wide range of applications, from hosting websites and running software to
+        storing data and processing complex tasks, enabling businesses to operate more efficiently and innovate faster.
+    </p>
+
+
+
+    <table border="1px">
+        <tr>
+            <th colspan="3">Record</th>
+        </tr>
+        <tr>
+            <td>Umarrrrrrr</td>
+            <td>aliiii</td>
+            <td rowspan="3">fffff</td>
+
+        </tr>
+
+        <tr>
+            <td>Umarrrr</td>
+            <td>aliiiiiiii</td>
+
+
+        </tr>
+
+        <tr>
+            <td>Umar</td>
+            <td>ali</td>
+
+
+        </tr>
+
+    </table>
+
+
+    <br> <br>
+
     <form action="umer.com" method="post">
-<fieldset> <legend> Sign Up</legend>
+        <fieldset>
+            <legend> Sign Up</legend>
 
-        <label>
-            First Name: <input type="text" name="firstname" maxlength="10" required>
-        </label>
-        <br> <br>
+            <label>
+                First Name: <input type="text" name="firstname" maxlength="10" required>
+            </label>
+            <br> <br>
 
-        <label>
-            Last Name: <input type="text" name="lastname" maxlength="10">
-        </label>
-        <br><br>
-        <label>
-            Password:<input type="password" name="password" maxlength="10">
-        </label>
+            <label>
+                Last Name: <input type="text" name="lastname" maxlength="10">
+            </label>
+            <br><br>
+            <label>
+                Password:<input type="password" name="password" maxlength="10">
+            </label>
 
-        <br><br>
-        <label>
-            Re Enter Password:<input type="password" name="password" maxlength="10">
-        </label>
-        <br> <br>
+            <br><br>
+            <label>
+                Re Enter Password:<input type="password" name="password" maxlength="10">
+            </label>
+            <br> <br>
 
-        <label>
-            <input type="radio" name="gender">Male
-        </label>
+            <label>
+                <input type="radio" name="gender">Male
+            </label>
 
-        <label>
-            <input type="radio" name="gender">Female
-        </label>
-        <br> <br>
-        <label>
-            Interests: <input type="checkbox" name="checkbox">Men Clothing
-            Interests: <input type="checkbox" name="checkbox">Women Clothing
+            <label>
+                <input type="radio" name="gender">Female
+            </label>
+            <br> <br>
+            <label>
+                Interests: <input type="checkbox" name="checkbox">Men Clothing
+                Interests: <input type="checkbox" name="checkbox">Women Clothing
 
-        </label>
-        <br><br>
-
-
-        Nationality:
-        <select>
-            <option>Pakistan</option>
-            <option>India</option>
-            <option>England</option>
-            <option>Australia</option>
-            <option>France</option>
-
-        </select>
-        <br> <br>
-        <label>
-            Upload Pictures: <input type="file" name="file" type="jpeg">
-        </label>
+            </label>
+            <br><br>
 
 
-        <br> <br>
-        <label>
-            Comments: <textarea name="comments" placeholder="Enter Comments"></textarea>
-        </label>
-<br> <br>
-<input type="submit">
+            Nationality:
+            <select>
+                <option>Pakistan</option>
+                <option>India</option>
+                <option>England</option>
+                <option>Australia</option>
+                <option>France</option>
 
-</fieldset>
+            </select>
+            <br> <br>
+            <label>
+                Upload Pictures: <input type="file" name="file" type="jpeg">
+            </label>
+
+
+            <br> <br>
+            <label>
+                Comments: <textarea name="comments" placeholder="Enter Comments"></textarea>
+            </label>
+            <br> <br>
+            <input type="submit">
+
+        </fieldset>
 
     </form>
 
 
+    <div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil quisquam tempore quasi! At, optio. Possimus
+            ea recusandae minus error dicta voluptas, magni, odit architecto dignissimos aut similique vero, repellendus
+            obcaecati!</p>
+    </div>
 
 
+    &copy;All right reserved. <br>
 
+    &yen; Uk <br>
+
+    &pound; Japan <br>
+
+
+    <a href="#para">Go to top</a>
+
+    <script src="app.js"></script>
 </body>
 
 </html>
