@@ -1,0 +1,86 @@
+#navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 6rem;
+    background-color: black;
+    padding: 0.5rem;
+    padding-right: 2rem;
+
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: blanchedalmond;
+
+}
+
+#navbar>a :hover {
+    background-color: rgb(133, 133, 116);
+    color: blanchedalmond;
+
+}
+
+/* In css we have 8 types of selectors: 
+Universal * 
+Type h1,p 
+Class .
+Id #, 
+Target direct child div>p: 
+Decendant div p
+Adjacent(fornn baaaad) sibling h1+p: just select one p sibling after h1
+General sibling h1~p: all the p sibling after h1
+*/
+
+/* selectors practice */
+* {
+    background-color: rgb(100, 100, 241);
+    color: azure;
+}
+
+/* direct child */
+div>p {
+    background-color: azure;
+    color: rgb(72, 4, 132);
+    color: rgb(9, 117, 47) !important;
+    color: rgb(226, 240, 19);
+    font-weight: bolder;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#para {
+    color: blue;
+    font-style: normal;
+    font-weight: bold;
+    background-color: aqua;
+    border: 1px solid red;
+}
+
+form {
+    background-color: aquamarine;
+    color: blue;
+    font-weight: bolder;
+}
+
+table {
+    border: 2px solid blue;
+    color: rgb(6, 129, 10);
+    padding: 14px;
+    margin: 14px;
+}
